@@ -1,0 +1,98 @@
+:root{
+    --moderateViolet: hsl(263, 55%, 52%);
+    --veryDarkGrayishBlue: hsl(217, 19%, 35%);
+    --veryDarkBlackishBlue: hsl(219, 29%, 14%);
+    --white: hsl(0, 0%, 100%);
+    --lightGray: hsl(0, 0%, 81%);
+    --lightGrayishBlue: hsl(210, 46%, 95%);
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    background-color: var(--lightGrayishBlue);
+}
+
+main{
+    width: 85%;
+    margin: auto;
+    padding: 3rem 0 0;
+}
+
+.daniel, .jonathan, .jeanette, .patrick, .kira{
+    padding: 2rem;
+    border-radius: 0.8rem;
+    margin: 0 auto 2rem; 
+}
+
+.daniel{
+    background-color: var(--moderateViolet);
+    background-image: url('./images/bg-pattern-quotation.svg');
+    background-repeat: no-repeat;
+    background-position: right top;       
+}
+
+.tittle{
+    display: flex;
+    align-items: center;    
+}
+
+.tittle img{
+    border-radius: 50%;
+}
+
+.daniel img{
+    border: solid 0.15rem hsl(271, 84%, 66%);
+}
+
+.tittle p{
+    margin: 0 0 0 0.8rem;
+    color: var(--lightGray);
+}
+
+.verified{
+    opacity: 0.5;
+    font-size: 0.8rem;
+}
+
+.comments{
+    color: var(--white);
+    font-size: 0.7rem;
+}
+
+.comments p{
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
+
+.review{
+    opacity: 0.7;
+}
+
+.jonathan{
+    background-color: var(--veryDarkGrayishBlue);
+}
+
+.jeanette{
+    background-color: var(--white);
+}
+
+.jeanette h1, .jeanette p{
+    color: var(--veryDarkGrayishBlue);
+}
+
+.patrick{
+    background-color: var(--veryDarkBlackishBlue);
+}
+
+.kira{
+    background-color: var(--white);
+}
+
+.kira h1, .kira p{
+    color: var(--veryDarkGrayishBlue);
+}

@@ -45,7 +45,7 @@ main{
     border-radius: 50%;
 }
 
-.daniel img{
+.daniel img, .patrick img{
     border: solid 0.15rem hsl(271, 84%, 66%);
 }
 
@@ -95,4 +95,63 @@ main{
 
 .kira h1, .kira p{
     color: var(--veryDarkGrayishBlue);
+}
+
+@media (min-width:50rem) {
+    main{
+        display: flex;
+        font-size: 0.5rem;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .left{
+        width: 75%;
+        margin: 0 3rem 0 0 ;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;        
+    }
+
+    .daniel{
+        width: 60%;
+    }
+
+    .jonathan{
+        width: 30%;
+    }
+
+    .jeanette{
+        width: 30%;
+    }
+
+    .patrick{
+        width: 60%;
+    }
+
+    .right{
+        width: 18%;
+    }
+
+    .verified{
+        font-size: 0.5rem;
+    }
+
+    .comments{
+        font-size: 0.3rem;
+    }
+
+    .comments p{
+        font-size: 0.5rem;
+    }
+}
+
+@media (min-width:80rem) {
+    .left{
+        width: 60%;
+    }
+
+    .right{
+        width: 15%;
+    }
 }

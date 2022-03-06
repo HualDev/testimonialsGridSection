@@ -33,7 +33,7 @@ main{
     background-color: var(--moderateViolet);
     background-image: url('./images/bg-pattern-quotation.svg');
     background-repeat: no-repeat;
-    background-position: right top;       
+    background-position: right 1.5rem top;       
 }
 
 .tittle{
@@ -138,11 +138,11 @@ main{
     }
 
     .comments{
-        font-size: 0.3rem;
+        font-size: 0.6rem;
     }
 
     .comments p{
-        font-size: 0.5rem;
+        font-size: 0.6rem;
     }
 }
 
